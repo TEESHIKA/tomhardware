@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+}
+
+/* Header */
+header {
+    background: #f1ecec;
+    color: rgb(162, 12, 12);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20x 40px;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: black;
+    background: white;
+    padding: 3px 6px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+/* Trending */
+.trending {
+    background: #eee;
+    padding: 10px 40px;
+    font-size: 14px;
+}
+
+/* Layout */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 20px;
+    padding: 20px 40px;
+}
+
+/* Sidebar */
+.sidebar {
+    background: white;
+    padding: 15px;
+}
+
+.sidebar h3 {
+    background: #c40000;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Main content cards */
+.main-content {
+    
+    width:700px;
+    height:2000px;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card h2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Right bar */
+.rightbar {
+    background: white;
+    padding: 15px;
+}
+
+.ad {
+    background: #ddd;
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.small-card {
+    background: #fafafa;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f2f2f2;
+    margin: 0;
+}
+
+/* Whole section */
+.news-section {
+    width: 95%;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 3fr 1.5fr;
+    gap: 25px;
+}
+
+/* LEFT GRID */
+.left-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.news-card {
+    background: white;
+    padding: 10px;
+}
+
+.news-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.news-card p {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    line-height: 1.4;
+}
+
+/* RIGHT LIST */
+.right-list {
+    background: white;
+    padding: 15px;
+}
+
+.right-list p {
+    font-size: 14px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    line-height: 1.4;
+}
+.news-stream {
+    position: sticky;
+    width: 320px;
+    top:100px;
+    right:20px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Red heading */
+.news-title {
+    background: #b30000;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    text-align: center;
+    position: relative;
+}
+
+/* small triangle pointer like original */
+.news-title::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 10px;
+    border-style: solid;
+    border-color: #b30000 transparent transparent transparent;
+}
+
+.news-list {
+    list-style: none;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.news-list li {
+    font-size: 14px;
+    padding: 10px 0;
+    border-bottom: 1px solid #e5e5e5;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+/* Hover effect like website */
+.news-list li:hover {
+    color: #b30000;
+}
+.layout{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:30px;
+}
